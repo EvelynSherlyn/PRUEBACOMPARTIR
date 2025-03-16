@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 /**
  * @author Evelyn S.
- * @link
-*/
+ * @link <a href="https://github.com/EvelynSherlyn/KataLV6-StringToCamelCase.git">...</a>
+ */
 class Solution{
     /**
      * @param s donde se pasará la string
