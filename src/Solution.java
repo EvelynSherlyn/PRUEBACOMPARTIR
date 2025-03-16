@@ -12,11 +12,11 @@ class Solution{
     static String toCamelCase(String s){
         String[] aux = s.split("");
         for (int i=0; i< aux.length; i++) {
-            if (aux[i].equals("-")) {
+            if (aux[i].equals("-") || aux[i].equals("_")) {
                 aux[i] = "";
                 aux[i+1] = aux[i+1].toUpperCase();
             }
         }
-        return Arrays.toString(aux);
+        return String.join("",aux);
     }
 }
