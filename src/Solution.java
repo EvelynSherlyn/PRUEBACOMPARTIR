@@ -1,15 +1,18 @@
-import java.util.Arrays;
-
 /**
+ * Clase resuelta de la kata de String to Camel Case
  * @author Evelyn S.
- * @link <a href="https://github.com/EvelynSherlyn/KataLV6-StringToCamelCase.git">...</a>
+ * @see <a href="https://github.com/EvelynSherlyn/KataLV6-StringToCamelCase.git">Repositorio</a>
+ * @version V1.1, 16-03-2025
  */
-class Solution{
+public class Solution{
     /**
-     * @param s donde se pasará la string
+     * Este método pasará Strings para ser transformados a CamelCase
+     * @param s donde se pasará la string. Esta String tendrá "-" y "_" que deberán ser borrados
+     *          para así ser transformados en CamelCase, además de poner en
+     *          mayúsculas la letra siguiente a estos. (hola_buenos-Días) -> (holaBuenosDías)
      * @return String ya transformado en CamelCase
      */
-    static String toCamelCase(String s){
+    static public String toCamelCase(String s){
         String[] aux = s.split("");
         for (int i=0; i< aux.length; i++) {
             if (aux[i].equals("-") || aux[i].equals("_")) {

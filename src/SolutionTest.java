@@ -1,6 +1,9 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
+/**
+ * Esta clase es solo para testear la otra a modo de ejemplo.
+ */
 
 public class SolutionTest {
     @Test
@@ -18,7 +21,7 @@ public class SolutionTest {
 
     @Test
     public void testSomeDashLowerStart2() {
-        String input = "the-stealth-warrior";
+        String input = "the-stealth_warrior";
         System.out.println("input: "+input);
         assertEquals("theStealthWarrior", Solution.toCamelCase(input));
     }
