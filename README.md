@@ -2,7 +2,7 @@
 # ✨String to Camel Case✨
 
 | 📝 **Nota** | Esto es la resolución de un ejercicio. Por favor, intente resolverlo antes. |
-|-------------|---------------------------------------------------------------------------|
+|-------------|-----------------------------------------------------------------------------|
 
 ## 🏷️ || Descripción
 Este código sacado de un kata de codewars. Consiste en tomar una String por parámetro y devolver una String en Camel Case. Ideal para practicar Strings.
@@ -28,7 +28,8 @@ Salida: `HolaDonPepito`
 ```
     
 ## 💟 || Versión
-- [X]   V1.2 - Readme
+- [X]   V1.3 - Documentación ampliada
+- [ ]   ~~V1.2 - Readme~~
 - [ ]    ~~V1.1 - Documentación + JavaDoc~~
 - [ ]    ~~V1.0 - Versión funcional~~
 ## 📚 || Documentación

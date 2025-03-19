@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        String output = Solution.toCamelCase("Buenas-esto-es-una_prueba");
+        System.out.println(output);
     }
 }

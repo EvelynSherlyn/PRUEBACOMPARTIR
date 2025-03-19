@@ -25,4 +25,11 @@ public class SolutionTest {
         System.out.println("input: "+input);
         assertEquals("theStealthWarrior", Solution.toCamelCase(input));
     }
+
+    @Test
+    public void testFraseOrdinaria() {
+        String input = "el_cielo-es-Rosa";
+        System.out.println("input: "+input);
+        assertEquals("elCieloEsRosa", Solution.toCamelCase(input));
+    }
 }
