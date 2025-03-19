@@ -9,10 +9,11 @@ Este código sacado de un kata de codewars. Consiste en tomar una String por par
 
 
 
-## 🌟 || Ejemplo
+## 🌟 || Ejemplos
 Entrada: `hola-Don_pepito`  
 Salida: `HolaDonPepito`
 
+![Prueba](assets/prueba.png)
 
 ---
 ---
@@ -28,7 +29,7 @@ Salida: `HolaDonPepito`
 ```
     
 ## 💟 || Versión
-- [X]   V1.3 - Documentación ampliada
+- [X]   V1.4.1 - Documentación ampliada
 - [ ]   ~~V1.2 - Readme~~
 - [ ]    ~~V1.1 - Documentación + JavaDoc~~
 - [ ]    ~~V1.0 - Versión funcional~~

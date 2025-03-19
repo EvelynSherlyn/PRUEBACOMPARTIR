@@ -2,7 +2,7 @@
  * Clase resuelta de la kata de String to Camel Case
  * @author Evelyn S.
  * @see <a href="https://github.com/EvelynSherlyn/KataLV6-StringToCamelCase.git">Repositorio</a>
- * @version V1.3, 19-03-2025
+ * @version V1.4.1, 19-03-2025
  * @method *toCamelCase: Transformación de String a String Camel Case
  */
 public class Solution{
