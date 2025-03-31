@@ -65,3 +65,5 @@ Quiero que mi readme se vea bonito.
 - [ ] Añadir manejo de errores para entradas inválidas.
 - [ ] Crear una interfaz gráfica (no).
 ```
+
+Esto lo he hecho con un pull, y ahora voy a usar un push.
